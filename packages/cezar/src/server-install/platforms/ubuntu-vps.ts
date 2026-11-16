@@ -51,7 +51,7 @@ function htpasswdPath(ctx: InstallContext): string {
 }
 function unitName(ctx: InstallContext): string {
   const i = inst(ctx);
-  return i === 'default' ? 'cezar.service' : `cezar-${i}.service`;
+  return i === 'default' ? 'kidd-harness.service' : `kidd-harness-${i}.service`;
 }
 
 /** Best-effort current OS username, suggested as the default cockpit login. */
